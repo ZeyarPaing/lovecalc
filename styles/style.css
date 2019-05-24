@@ -81,12 +81,6 @@ input.input-group-field:focus {
     color: #fff;
     font-weight: 500;
 }
-.fa-heart {
-    color: #d81818;
-    font-size: 20px;
-    padding: 16px;
-    line-height: 4;
-}
 .output, .additional {
     padding: 10px
 }
@@ -122,6 +116,9 @@ border-radius: 20px;
     .body-sec {
         margin-top: 0px;
     }
+.input-gp {
+    padding: 0px 15px;
+}
 }
 #dialog h2 {
 margin: 0;
