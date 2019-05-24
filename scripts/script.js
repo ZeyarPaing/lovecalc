@@ -9,10 +9,10 @@ function hello(){
     var firstPerson = document.getElementById("fp").value;
     var secondPerson = document.getElementById("sp").value;
 
-    if ( out > 80 ) {
+    if ( ava > 80 ) {
         document.getElementById("out").innerHTML = "Love score of " + firstPerson + " and " + secondPerson + " is " + ava + "%."; 
         document.getElementById("add").innerHTML = "The happiest couples never have the same character. They have the best understanding of their differences. ";
-    }else if ( out > 50 ) {
+    }else if ( ava > 50 ) {
         document.getElementById("out").innerHTML = "Love score of " + firstPerson + " and " + secondPerson + " is " + ava + "%."; 
         document.getElementById("add").innerHTML = "The best relationship is when you can act like lovers and best friends at the same time.";
     }else {
