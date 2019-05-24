@@ -1,0 +1,73 @@
+
+@font-face {
+font-family: 'Pyidaungsu Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Pyidaungsu Regular'), url('Pyidaungsu Regular.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Pyidaungsu Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Pyidaungsu Bold'), url('Pyidaungsu Bold.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Myanmar3';
+font-style: normal;
+font-weight: normal;
+src: local('Myanmar3'), url('Myanmar3.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Bahnschrift';
+font-style: normal;
+font-weight: normal;
+src: local('Bahnschrift'), url('Bahnschrift.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Segoe UI Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Segoe UI Regular'), url('Segoe UI.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Segoe UI Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Segoe UI Italic'), url('Segoe UI Italic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Segoe UI Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Segoe UI Bold'), url('Segoe UI Bold.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Segoe UI Bold Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Segoe UI Bold Italic'), url('Segoe UI Bold Italic.woff') format('woff');
+}
+
+@font-face {
+font-family: 'LemonMilk';
+font-style: normal;
+font-weight: normal;
+src: local('LemonMilk'), url('LemonMilk.woff') format('woff');
+}
+
+@font-face {
+font-family: 'MyanmarKalay';
+font-style: normal;
+font-weight: normal;
+src: local('MyanmarKalay'), url('MyanmarKalay.woff') format('woff');
+}

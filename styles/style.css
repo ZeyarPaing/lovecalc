@@ -1,0 +1,173 @@
+:root {
+    --themecolor : #fd77a9;
+    --def-mm : "Pyidaungsu Regular";
+}
+body {
+    background: url('back.jpg') no-repeat;
+}
+#landing {
+    text-align: center;
+}
+.main-header {
+    font-family: "MyanmarKalay";
+    padding: 40px 20px 30px;
+    margin: 0;
+}
+.sec-header {
+    font-family: "Great Vibes";
+    font-weight: 500;
+    padding: 20px;
+    padding-top: 0px;
+}
+.body-sec {
+    margin-top: 5rem;
+    padding: 30px 20px;
+}
+.container {
+    text-align: center;
+
+}
+.con {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 0px 10px;
+}
+.submit {
+    padding: 4rem 2rem 0rem;
+}
+.first-person, .second-person {
+    border-radius: 25px;
+    border: 0px ;
+    padding: 13px 28px;
+    font-size: 1.2rem;
+    transition: 100ms;
+}
+input.input-group-field:focus {
+    box-shadow: 0px 5px 10px  #9e9d9d;
+    outline: none;
+    background-color: #c4edfa;
+}
+.input-gp {
+    padding: 5px 10px;
+}
+#calculate {
+    outline: none;
+    border: none;
+    background-color: #d81818;
+    padding: 8px 20px;
+    border-radius: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    transition: 300ms;
+}
+#calculate:hover {
+    background-color: rgb(129, 5, 5);
+    color: #fff;
+    font-weight: 500;
+}
+#testAgain {
+    outline: none;
+    border: none;
+    background-color: #05ad05;
+    padding: 7px 19px;
+    border-radius: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    transition: 300ms;
+    margin-bottom: 20px;
+}
+#testAgain:hover {
+    background-color: rgb(13, 104, 4);
+    color: #fff;
+    font-weight: 500;
+}
+.fa-heart {
+    color: #d81818;
+    font-size: 20px;
+    padding: 16px;
+    line-height: 4;
+}
+.output, .additional {
+    padding: 10px
+}
+/*dialog box*/
+#overlay {
+    position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: #000;
+opacity: 0.85;
+display: none;
+height: 110%;
+}
+#dialog {
+position: absolute;
+top: 25%;
+left: 35%;
+width: 30%;
+border: 4px solid #ccc;
+background: #fff;
+display: none;
+border-radius: 20px;
+}
+@media screen and (max-width:768px){
+    #dialog {
+        width: 80%;
+        top: 25%;
+        left: 12%;
+
+    }
+    .body-sec {
+        margin-top: 0px;
+    }
+}
+#dialog h2 {
+margin: 0;
+padding: 8px;
+background: #ccc;
+font-size: 17px;
+border-radius: 10px 10px 0px 0px;
+}
+#dialog h2 span {
+display: block;
+float: right;
+margin-right: 10px;
+border-radius: 100%;
+padding: 7px;
+background: #d81818;
+width: 10px;
+height: 10px;
+cursor: pointer;
+}
+#dialog form {
+padding: 20px;
+}
+.qoute {
+    font-family: Pacifico, cursive;
+    padding-bottom: 50px;
+    
+}
+.author a{
+    color: rgb(54, 54, 54);
+    font-family: Raleway;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font-weight: 500;
+}
+.author a:hover {
+    text-decoration: none;
+}
+
+#out , #add {
+    font-family: Ubuntu;
+}
+#footer {
+    padding: 80px 20px 0px;
+}
+@media screen and (max-width:768px) {
+    #footer {
+        padding: 13px 20px;
+    }
+}
