@@ -48,7 +48,7 @@ input.input-group-field:focus {
     background-color: #c4edfa;
 }
 .input-gp {
-    padding: 5px 10px;
+    padding: 11px 0px 0px 0px;
 }
 #calculate {
     outline: none;
@@ -80,6 +80,12 @@ input.input-group-field:focus {
     background-color: rgb(13, 104, 4);
     color: #fff;
     font-weight: 500;
+}
+.fa-heart {
+    color: #d81818;
+    font-size: 20px;
+    padding: 16px;
+    line-height: 4;
 }
 .output, .additional {
     padding: 10px
@@ -114,11 +120,23 @@ border-radius: 20px;
 
     }
     .body-sec {
-        margin-top: 0px;
+        margin-top: 0;
     }
-.input-gp {
-    padding: 5px 20px 5px 20px;
-}
+    .submit {
+        padding-top: 25px; 
+    }
+    #footer {
+        padding: 20px;
+    }
+    .first-person, .second-person {
+        width: 16rem;
+        padding: 13px 22px;
+        
+    }
+    .input-gp {
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
 }
 #dialog h2 {
 margin: 0;
@@ -142,9 +160,10 @@ cursor: pointer;
 padding: 20px;
 }
 .qoute {
-    font-family: Pacifico, cursive;
-    padding-bottom: 50px;
-    
+    font-family: "Great Vibes";
+    font-size: 1.5rem;
+   
+    //Pacifico, cursive
 }
 .author a{
     color: rgb(54, 54, 54);
@@ -162,9 +181,4 @@ padding: 20px;
 }
 #footer {
     padding: 80px 20px 0px;
-}
-@media screen and (max-width:768px) {
-    #footer {
-        padding: 13px 20px;
-    }
 }
