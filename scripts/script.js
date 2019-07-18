@@ -24,7 +24,8 @@ if((firstPerson != "" ) && (secondPerson != "" )){
 }
 }else {
         document.getElementById("out").innerHTML = "Please input name fields.";
-        document.getElementById("add").innerHTML = "We need your name to predict.";  
+        document.getElementById("add").innerHTML = "We need your name to predict.";
+}
 }
 function hideDialog() {
     document.getElementById("overlay").style.display = "none";
