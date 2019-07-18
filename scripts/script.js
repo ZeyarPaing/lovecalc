@@ -1,3 +1,5 @@
+function testAgain(){
+    
 var ran = (Math.random() * 100) + 1;
 var ran2 = (Math.random() * 100) + 1;
 var average = (ran + ran2) / 2;
@@ -20,12 +22,9 @@ function hello(){
         document.getElementById("add").innerHTML = "Sometimes good things fall apart so better things can fall together.";
     }
 }
-
+}
 function hideDialog() {
     document.getElementById("overlay").style.display = "none";
     document.getElementById("dialog").style.display = "none";
 
-}
-function testAgain() {
-    location.reload();
 }
