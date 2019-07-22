@@ -1,3 +1,4 @@
+function testAgain() {
 var ran = (Math.random() * 100) + 1;
 var ran2 = (Math.random() * 100) + 1;
 var average = (ran + ran2) / 2;
@@ -26,6 +27,6 @@ function hideDialog() {
     document.getElementById("dialog").style.display = "none";
 
 }
-function testAgain() {
-    location.reload();
+
+  
 }
