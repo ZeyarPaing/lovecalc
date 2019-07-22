@@ -1,10 +1,9 @@
-function hello() {
 var ran = (Math.random() * 100) + 1;
 var ran2 = (Math.random() * 100) + 1;
 var average = (ran + ran2) / 2;
 var ava = Math.round(average);
 
-
+function hello(){
     document.getElementById("overlay").style.display = "block";
     document.getElementById("dialog").style.display = "block";
     var firstPerson = document.getElementById("fp").value;
@@ -27,6 +26,6 @@ function hideDialog() {
     document.getElementById("dialog").style.display = "none";
 
 }
-
-  
-
+function testAgain() {
+    location.reload();
+}
